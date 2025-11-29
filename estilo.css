@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    background-color: #F0F0F0; 
+    color: #1A1A1A;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+h1, h2, h3, .article-title {
+    font-family: 'Creepster', system-ui;
+    color: #6A0DAD; 
+    letter-spacing: 2px;
+}
+
+
+p, .text-lead {
+    color: #1A1A1A; 
+}
+
+
+.border.fixed.split-nav {
+    background-color: #F0F0F0;
+    border-bottom: 2px solid #B5FF1A; 
+}
+
+
+.nav-brand h3 a,
+.collapsible-body ul.inline li a {
+    color: #6A0DAD; 
+}
+.collapsible-body {
+    background-color: #F0F0F0;
+    border: 1px solid #9B9B9B;
+}
+.collapsible-body ul.inline li a:hover {
+    color: #B5FF1A;
+}
+
+.article, .card {
+    background-color: white; 
+    border: 1px solid #9B9B9B;
+}
+
+
+.paper-btn {
+    background-color: #B5FF1A; 
+    color: #1A1A1A;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.paper-btn:hover {
+    background-color: #9ecc1a; 
+}
+#modal-2 .modal-body {
+    width: 90%;
+    max-width: 1200px;
+}
+#modal-2 .modal-body img {
+    width: 100%;
+    height: auto;
+}
+
+.modal-body {
+    background-color: #F0F0F0;
+    border: 2px solid #6A0DAD;
+    color: #1A1A1A;
+}
+
+.btn-close {
+    color: #B5FF1A;
+}
+
+footer {
+    background-color: #E0E0E0; 
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 2px solid #9B9B9B;
+}
